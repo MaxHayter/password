@@ -9,11 +9,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/password/configs"
-	"github.com/password/internal/controller"
-	"github.com/password/internal/service"
-	"github.com/password/logger"
-	api "github.com/password/password"
+	"github.com/MaxHayter/password/configs"
+	"github.com/MaxHayter/password/internal/controller"
+	"github.com/MaxHayter/password/internal/service"
+	"github.com/MaxHayter/password/logger"
+	api "github.com/MaxHayter/password/password"
 )
 
 const (

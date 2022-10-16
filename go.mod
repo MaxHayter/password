@@ -1,4 +1,4 @@
-module github.com/password
+module github.com/MaxHayter/password
 
 go 1.18
 

@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/password/internal/service"
-	api "github.com/password/password"
+	"github.com/MaxHayter/password/internal/service"
+	api "github.com/MaxHayter/password/password"
 )
 
 type Controller struct {
