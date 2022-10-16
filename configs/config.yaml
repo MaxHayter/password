@@ -1,0 +1,2 @@
+server:
+  grpc_address: :1600

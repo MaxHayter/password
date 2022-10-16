@@ -1,0 +1,8 @@
+version: v1beta1
+plugins:
+  - name: go
+    out: password
+    opt: paths=source_relative
+  - name: go-grpc
+    out: password
+    opt: paths=source_relative
