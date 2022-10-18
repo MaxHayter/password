@@ -39,7 +39,7 @@ func (s *Service) CheckAndHash(ctx context.Context, password string) ([]byte, er
 		numeric = 3
 	}
 
-	if (pwLength-30)+(numeric)+(numSymbols*2)+(upper) < 0 {
+	if (pwLength-20)+(numeric)+(numSymbols*2)+(upper) < 0 {
 		return nil, errors.New("weak password")
 	}
 
